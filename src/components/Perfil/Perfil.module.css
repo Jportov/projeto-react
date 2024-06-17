@@ -1,0 +1,22 @@
+.header {
+    background-color: var(--corPrincipal); /* Escolha uma cor de fundo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 180px 0 40px;
+    width: 100%; /* Certifique-se de que a header ocupa toda a largura do contêiner pai */
+    box-sizing: border-box; /* Inclui padding na largura total */
+    margin-bottom: 80px;
+}
+
+.avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 2px solid var(--corSecundaria);
+}
+
+.name {
+    font-size: 18px;
+    color: var(--corSecundaria); /* Adicionei uma cor para o texto para melhor visibilidade */
+}
